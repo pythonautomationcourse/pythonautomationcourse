@@ -1,0 +1,23 @@
+Escenario
+
+Utilizando un ciclo "for" con 40 iteraciones imprime en pantalla la siguiente salida
+VLAN 1
+name Python_Automation_1
+VLAN 2
+name Python_Automation_2
+...
+...
+...
+
+
+Las VLANS 7, 10, 20, 35 no deben de aparecer en pantalla.
+
+
+Nota
+Utiliza condicionales if, elif. 
+Utiliza for vlan in range(41)
+Utilizar el metodo ".format()" para imprimir adecuadamente.
+
+Esta actividad la puedes realizar utilizando una sola linea de codigo.
+and equivale a "y"
+or equivale a "o".

@@ -1,0 +1,12 @@
+Escenario
+
+Escribe en una sola linea de código el siguiente texto
+I'm
+learning
+"Python"
+
+Para ello es necesario utilizar los caracteres de escape \n, \', \"
+
+
+Nota:
+Utiliza comillas para ingresar el texto.
