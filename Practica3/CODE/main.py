@@ -109,18 +109,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-    # with open("ips.txt", mode="r") as file:
-    #     ip_list = file.read()
-    #     file.close()
-    #
-    # ip_list = ip_list.splitlines()
-    #
-    # with open("commands.txt", mode="read") as file:
-    #     commands_list = file.read()
-    #     file.close
-    #
-    # commands_list = commands_list.splitlines()
