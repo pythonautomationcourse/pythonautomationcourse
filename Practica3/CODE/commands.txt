@@ -1,0 +1,8 @@
+aaa new-model
+aaa authentication attempts login 2
+aaa authentication login default group tacacs+ local
+aaa authentication enable default group tacacs+ enable
+tacacs server tacacs+
+address ipv4 192.168.100.50
+key HolaMundo
+service password-encryption
