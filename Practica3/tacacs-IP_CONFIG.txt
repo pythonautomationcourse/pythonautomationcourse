@@ -1,0 +1,19 @@
+# Accesos a la terminal
+username: root
+password: 1234
+
+# Configuracion de IP en tacacs+
+
+# Change to /etc/network directory
+
+# Open with vim or vi interface
+
+auto eth0
+iface eth0 inet static
+        hostname tacacs
+        address 192.168.122.50
+        netmask 255.255.255.0
+        gateway 192.168.122.254
+        dns-nameservers 192.168.122.254
+
+/etc/init.d/networking restart
